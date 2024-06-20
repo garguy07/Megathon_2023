@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Padding Analysis</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img class="logo" src="I1.png" alt="Logo">
+            </div>
+            <div class="header-text">
+                <h1>RunTime Terror</h1>
+                <p class="subheading">Megathon Team, IIIT Hyderabad</p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <p>Paddy Analysis of Telangana State</p>
+        </div>
+        <div class="map-container">
+            <img class="map" src="I4.png" alt="Map">
+        </div>
+    </div>
+
+
+
+    <div class="toc">
+        <a href="#home">HOME</a>
+        <a href="#farmers">FARMERS</a>
+        <a href="#about">ABOUT US</a>
+    </div>
+
+
+
+
+    <div class="section" id="home">
+        <h2 style="text-align: center; font-size: 60px;">HOME</h2>
+        <u>
+            <h3 style="font-size: 40px;">Why the Problem Statement ?</h3>
+        </u>
+        <ul>
+            <li style="font-size: 23px;">Our team has chosen this problem statement due to the critical challenges posed
+                by monocropping, particularly in the cultivation of paddy and cotton in Telangana State. Monocropping
+                has led to complexities in procurement processes, increased vulnerability to price fluctuations and
+                yield risks, and a higher susceptibility to pests and diseases.</li>
+            <li style="font-size: 23px;">Tackling these issues is essential to enhance the sustainability and efficiency
+                of paddy cultivation and procurement. Our team is dedicated to addressing these challenges and making a
+                positive impact on both farmers and the agricultural sector in the region.</li>
+        </ul>
+        <br>
+        <br>
+        <u>
+            <h3 style="font-size: 40px;">Our Implementation:</h3>
+        </u>
+        <br>
+        <div style="display: flex; justify-content: center;">
+            <div style="text-align: center;">
+                <img src="I5.jpeg" alt="Image 1" style="width: 600px;">
+                <p style="font-size: 23px;">Satellite Image</p>
+            </div>
+            <div style="text-align: center;">
+                <img src="I6.jpeg" alt="Image 2" style="width: 600px;">
+                <p style="font-size: 23px;">Processed Image</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <p style="font-size: 23px;">
+            Our implementation encompasses a streamlined approach to image processing, wherein we employ pixel-level
+            segmentation of satellite imagery. By leveraging critical parameters such as RGB values, we transform the
+            satellite image into a comprehensive graphical representation that vividly illustrates the various stages of
+            paddy crop growth.
+        </p>
+        <br>
+        <ul style="font-size: 23px;">
+            <li>Light green areas indicate the presence of young and burgeoning crops.</li>
+            <li>Dark green regions represent fully grown crops.</li>
+            <li>The yellow segments signify crops at the optimal harvest stage.</li>
+            <li>Brown patches delineate either harvested fields or areas prepared for sowing.</li>
+        </ul>
+        <br>
+        <br>
+        <p style="font-size: 23px;">
+            This graphical depiction serves as a valuable tool for gaining insights into the cultivation process within
+            specific land parcels. It aids in assessing paddy field yield, crop conditions, and other essential factors
+            that contribute to informed decision-making and agricultural management.
+        </p>
+
+        <div style="display: flex; justify-content: center;">
+            <div style="text-align: center;">
+                <img src="I11.jpeg" alt="Image 1" class="implementation-image">
+                <p style="font-size: 23px;">ML Model for medical diagnosis</p>
+            </div>
+            <div style="text-align: center;">
+                <img src="I12.jpeg" alt="Image 2" class="implementation-image">
+                <p style="font-size: 23px;">ML Model for identifying real or fake</p>
+            </div>
+            <div style="text-align: center;">
+                <img src="I13.jpeg" alt="Image 3" class="implementation-image">
+                <p style="font-size: 23px;">ML Model for detecting paddy</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <p style="font-size: 23px;">
+            We have meticulously crafted advanced Machine Learning models for the precise medical diagnosis of plants.
+            These robust models proficiently analyze plant images to ascertain their health status, offering insights
+            into their well-being. Furthermore, we've integrated an additional Machine Learning model designed to
+            differentiate authentic plant images from substandard ones, ensuring the reliability of the data used for
+            analysis. Moreover, our specialized model can effectively identify whether the image is solely
+            representative of a paddy crop, streamlining the classification process.
+
+            The training data for our Machine Learning models has been meticulously curated from an extensive database,
+            primarily sourced from Kaggle. These models have undergone rigorous training, encompassing a wide array of
+            essential parameters to enhance their accuracy and efficiency. Extensive testing has been carried out,
+            revealing an impressive accuracy rate of 0.45 %, showcasing their proficiency in delivering valuable
+            insights into plant health and image authenticity.
+        </p>
+
+    </div>
+
+
+
+    <div class="section" id="farmers">
+        <h2 style="text-align: center; font-size: 60px;">FARMERS</h2>
+        <br>
+        <br>
+        <form class="sensor-form">
+            <label for="sensor1">Sensor 1 (LST) Reading:</label>
+            <input type="text" id="sensor1" name="sensor1" required><br><br>
+
+            <label for="sensor2">Sensor 2 (Humidity) Reading:</label>
+            <input type="text" id="sensor2" name="sensor2" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <br>
+        <p class="summary">After submitting the relevant form, the user's paddy farm information, including the health
+            condition of the plants, estimated time required for harvesting, approximate profit or loss projections and
+            recommended preventive measures, will be promptly transmitted to the user's mobile phone.</p>
+
+    </div>
+
+
+
+
+    <div class="section" id="about">
+        <h2 style="text-align: center; font-size: 60px;">ABOUT US</h2>
+        <u>
+            <h3 class="summary-heading">Summary:</h3>
+        </u>
+        <p class="summary">Our implementation features a simplified Satellite Image Processing system that leverages RGB
+            parameters to create an average color component graph. This graph provides a comprehensive analysis of the
+            various growth stages of paddy crops, offering valuable insights into their development. Additionally, we've
+            integrated Machine Learning Algorithms designed to identify real images, differentiate paddy crops from
+            other visuals and assess the health of paddy crops within the images. Although our current ML algorithms
+            exhibit moderate accuracy and efficiency, further improvements are achievable through the incorporation of
+            advanced techniques. These enhancements include the utilization of thermal scanning, the acquisition of data
+            from MODIS sensors and the calculation of indices such as Enhanced Vegetation Index (EVI), Normalized
+            Difference Vegetation Index (NDVI) and Land Surface Water Index (LSWI). By implementing these strategies, we
+            aim to elevate the precision and effectiveness of our analysis.</p>
+        <u>
+            <h3 class="our-team-heading">Our Team</h3>
+        </u>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="I7.png" alt="Image 3">
+                <p>Abhinav Raundhal</p>
+            </div>
+            <div class="team-member">
+                <img src="I8.jpeg" alt="Image 4">
+                <p>Gargie Tambe</p>
+            </div>
+            <div class="team-member">
+                <img src="I9.jpeg" alt="Image 5">
+                <p>Yash Bhutada</p>
+            </div>
+            <div class="team-member">
+                <img src="I10.jpeg" alt="Image 6">
+                <p>Yashaswinee Dharmineni</p>
+            </div>
+            <div class="team-member">
+                <img src="I2.jpeg" alt="Image 7">
+                <p>Yash Shinde</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>gargie.tambe@research.iiit.ac.in | 9146527446</p>
+    </div>
+</body>
+
+</html>
